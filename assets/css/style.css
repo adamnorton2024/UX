@@ -29,6 +29,14 @@ h1{
     padding-top: 0;
 }
 
+h2{
+    color: #276EF1;
+}
+
+h5{
+    font-style: italic;
+}
+
 a{
     color:white;
 }
@@ -38,13 +46,27 @@ a:hover{
 }
 
 .navbar{
-    background-color: #0a091b;
+    background-color: rgba(0,0,0,0);
 }
 
 .navbar-brand{
     font-family: 'Alfa Slab One', cursive;
-    
     font-size: 2em;
+}
+
+.tinted-image {
+    background-image: url("./images/bg_computerguy.jpg");
+    background:
+    linear-gradient(
+    rgba(34, 34, 58, 1), 
+    rgba(34, 34, 58, 0.8)
+    ),
+    url("../images/bg_computerguy.jpg");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .relative {
@@ -59,11 +81,70 @@ a:hover{
 
 .text-sub-hero{
     position: absolute;
-    top: 11.9rem;
-    left: 6rem;
+    top: 10.25rem;
+    left: 1.7rem;
     color:#276EF1;
     font-family: 'BioRhyme', serif;
     font-size: 10em;
     font-weight: bold;
     font-style: italic;
+}
+
+.text-subtitle{
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.torn-paper{
+    background-image: url("../images/bg_torn_paper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 152px;
+    width: 100%;
+    margin: 0;
+}
+
+.torn-paper-up{
+    background-image: url("../images/bg_torn_paper.png");
+}
+
+.torn-paper-flipped{
+    background-image: url("../images/bg_torn_paper_flipped.png");
+}
+
+.bg-white {
+    background-color: white;
+    color: #0a091b;
+}
+
+
+/* Medium Devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+    .text-sub-hero {
+    position: absolute;
+    top: 11.5rem;
+    left: 1.7rem;
+    color:#276EF1;
+    font-family: 'BioRhyme', serif;
+    font-size: 8em;
+    font-weight: bold;
+    font-style: italic;
+    }
+
+}
+
+/* Small devices  (landscape phones, 576px and up) */
+@media (max-width: 576px){
+    .text-sub-hero{
+    position: absolute;
+    top: 13rem;
+    left: 2.5rem;
+    color:#276EF1;
+    font-family: 'BioRhyme', serif;
+    font-size: 6em;
+    font-weight: bold;
+    font-style: italic;
+    }
 }
