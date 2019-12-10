@@ -66,7 +66,7 @@ a:hover{
     height: auto;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 .relative {
@@ -79,6 +79,12 @@ a:hover{
     font-size: 18rem;
 }
 
+.text-orange{
+    color: #ED6E33;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 9rem;
+}
+
 .text-sub-hero{
     position: absolute;
     top: 10.25rem;
@@ -86,6 +92,17 @@ a:hover{
     color:#276EF1;
     font-family: 'BioRhyme', serif;
     font-size: 10em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text-blue{
+    position: absolute;
+    top: 5.0rem;
+    left: 1rem;
+    color: #276EF1;
+    font-family: 'BioRhyme', serif;
+    font-size: 7rem;
     font-weight: bold;
     font-style: italic;
 }
@@ -116,6 +133,14 @@ a:hover{
 .bg-white {
     background-color: white;
     color: #0a091b;
+}
+
+footer{
+    color: white;
+}
+
+.text-bold{
+    font-weight: bold;
 }
 
 
