@@ -45,6 +45,14 @@ a:hover{
     color: #ED6E33;
 }
 
+.link-blue{
+    color:#276EF1;;
+}
+
+.link-blue:hover{
+    color: #ED6E33;
+}
+
 .navbar{
     background-color: rgba(0,0,0,0);
 }
